@@ -321,7 +321,7 @@ const BasicTable = <T extends { id: number }, V = undefined>({
     );
   };
 
-  const generateNestedSingleRow = (variant: V, row: T) => {
+  const generateNestedSingleRow = (variant: any, row: T) => {
     return (
       <>
         {expandableColumnsData?.map((column, index) => {

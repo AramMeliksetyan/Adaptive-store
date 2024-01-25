@@ -1,11 +1,10 @@
 import { useSearchParams } from "react-router-dom";
 import { useMemo } from "react";
-import { DynamicObject } from "./useFetchQuery";
 
 const useQueryParams = () => {
   const [queries, setQueries] = useSearchParams();
 
-  const getQueries: DynamicObject = useMemo(() => {
+  const getQueries: any = useMemo(() => {
     const searchParams = new URLSearchParams(queries.toString());
 
     // Convert URLSearchParams to an object

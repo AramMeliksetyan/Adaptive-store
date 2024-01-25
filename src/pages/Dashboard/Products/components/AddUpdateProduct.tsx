@@ -14,11 +14,7 @@ import TextInput from "shared/ui/TextInput";
 import { ELocalStorage } from "store/config/constants";
 import { ERequestStatus } from "store/enums/index.enum";
 import { IProduct } from "store/interfaces/product";
-import {
-  getCategories,
-  getCategoriesByTab,
-  selectCategories,
-} from "store/slicers/common";
+import { getCategoriesByTab, selectCategories } from "store/slicers/common";
 import { getCompaniesList, selectCompaniesList } from "store/slicers/company";
 import {
   addProduct,

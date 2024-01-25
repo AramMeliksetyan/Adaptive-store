@@ -1,4 +1,4 @@
-import { Chip, Typography } from "@mui/material";
+import { Chip } from "@mui/material";
 import { IColumn } from "shared/ui/DataTable/constants";
 import { ICompany } from "store/interfaces/company";
 

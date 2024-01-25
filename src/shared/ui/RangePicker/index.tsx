@@ -35,7 +35,7 @@ interface IProps {
 const BasicRangePicker = ({ name, onSubmit }: IProps) => {
   const { control } = useFormContext();
 
-  const onRangeChange = (dates: any, dateStrings: string[], field: any) => {
+  const onRangeChange = (dates: any, _: string[], field: any) => {
     if (dates) {
       field.onChange([dates[0], dates[1]]);
     } else {
