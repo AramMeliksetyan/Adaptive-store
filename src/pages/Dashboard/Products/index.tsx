@@ -70,11 +70,6 @@ const Products = () => {
         onClick: () => addVariant(rowData),
         color: "primary" as ButtonVariantColor,
       },
-      {
-        label: "view",
-        onClick: () => updateCompany(rowData),
-        color: "primary" as ButtonVariantColor,
-      },
     ];
   };
 
