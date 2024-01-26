@@ -70,6 +70,11 @@ const Products = () => {
         onClick: () => addVariant(rowData),
         color: "primary" as ButtonVariantColor,
       },
+      {
+        label: "view",
+        onClick: () => addVariant(rowData),
+        color: "primary" as ButtonVariantColor,
+      },
     ];
   };
 
